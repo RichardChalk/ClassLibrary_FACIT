@@ -38,7 +38,39 @@ Class Library
 Project 1
 ** ******
 
+#6 Högerklicka på din solution and välj 'Add' => 'New Project'
+	Välj C# 'Console App'
+	Döp den till 'Project1'
+	.NET 6.0
 
+#7 I Main i Project1 skapa en new MathServices()
+	Hmmm... jag får error. VS säger att klassen MathServices existerar inte!
+	Undrar om jag kan lägga till en 'referens' till min Class Library?
+
+	I Project1 högerklicka på 'Dependencies'
+	Välj 'Add Project reference'
+	Välj 'SuperDuperClassLibrary' (titta under Dependencies => Projects nu!)
+
+	Hmmmm... det är fortfarande fel!
+	Låt musen vilar över felet och välv 'Show Potential Fixes'
+	Nu kan du välja 'using 'SuperDuprClassLibrary'
+
+	Skriv resultatet till consolen och klicka på F5.
+
+** ****************************************
+FEL FEL FEL FEL FEL FEL FEL FEL FEL FEL FEL 
+** ****************************************
+
+Oh noooo! Jag får en error!
+'A project with an output type of 'Class Library' cannot be started directly!'
+
+Vi kan högerklicka på 'Project1' och se till att det projektet startas upp först.
+	'Set as startup project'
+
+Testa F5 nu. Success!!!
+	
+
+	
 
 
 
