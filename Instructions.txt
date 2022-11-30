@@ -15,6 +15,11 @@ Work Items
 
 #2 Synka den nya solution med ditt gitHub konto
 
+
+** **********
+Class Library
+** **********
+
 #3 Högerklicka på din solution and välj 'Add' => 'New Project'
 	Välj C# 'Class Library'
 	Döp den till 'SuperDuperClassLibrary'
@@ -28,6 +33,14 @@ Work Items
 	Subtraction()
 	Multiplication()
 	Division()
+
+** ******
+Project 1
+** ******
+
+
+
+
 
 
 
