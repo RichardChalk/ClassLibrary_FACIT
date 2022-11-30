@@ -1,24 +1,24 @@
-** **********
+** ****************************************
 Class Library
-** **********
+** ****************************************
 
 
 Nedan ser du en lista med Work Items.... (tex. #1 Skapa en Blank Solution)
 Följ alla work items i tur och ordning
 Skapa en ny commit för varje work item (med BRA commit rubrik)
 
-** *******
+** ****************************************
 Work Items
-** *******
+** ****************************************
 
 #1 Skapa en 'Blank Solution' med relevant namn i Visual Studio
 
 #2 Synka den nya solution med ditt gitHub konto
 
 
-** **********
-Class Library
-** **********
+** ****************************************
+Skapa Class Library
+** ****************************************
 
 #3 Högerklicka på din solution and välj 'Add' => 'New Project'
 	Välj C# 'Class Library'
@@ -34,9 +34,9 @@ Class Library
 	Multiplication()
 	Division()
 
-** ******
+** ****************************************
 Project 1
-** ******
+** ****************************************
 
 #6 Högerklicka på din solution and välj 'Add' => 'New Project'
 	Välj C# 'Console App'
@@ -75,6 +75,36 @@ Testa F5 nu. Success!!!
 #8 Upprepa work item #6 & #7.
 	Denna gång ska projektet döpas till 'Project2'
 	Anropa Multiplication() & Division() i detta projekt
+
+	Klicka på F5
+	Hmmm... Jag ser resultat från Project1 i consolen
+	Vi kan högerklicka på 'Project2' och se till att det projektet startas upp först.
+	'Set as startup project'
+
+Testa F5 nu. Success!!!
+
+** ****************************************
+Fördelar med Class Library
+** ****************************************
+Nu ser ni hela poängen med class library.
+Funktionerna som finns i library definieras endast en gång....
+.... men de kan användas av flera projekt i en och samma Solution :)
+
+** ****************************************
+Project 3
+** ****************************************
+
+#9 Project3 ska kunna koppla upp sig mot en databas...
+	Högerklicka på din solution and välj 'Add' => 'New Project'
+	Välj C# 'Console App'
+	Döp den till 'Project3'
+	.NET 6.0
+
+
+
+
+
+
 	
 	
 
