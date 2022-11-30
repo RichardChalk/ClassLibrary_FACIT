@@ -94,7 +94,7 @@ Funktionerna som finns i library definieras endast en gång....
 Project 3
 ** ****************************************
 
-#9 Project3 ska kunna koppla upp sig mot en databas...
+#9 Project3 ska kunna koppla upp sig mot en databas (Database First)...
 	Högerklicka på din solution and välj 'Add' => 'New Project'
 	Välj C# 'Console App'
 	Döp den till 'Project3'
@@ -105,8 +105,17 @@ Project 3
 	Microsoft.EntityFramworkCore.SqlServer
 	Microsoft.EntityFramworkCore.Tools
 
+#11 	I Project3 högerklicka på 'Dependencies'
+	Välj 'Add Project reference'
+	Välj 'SuperDuperClassLibrary' (titta under Dependencies => Projects nu!)
 
+
+#11 I package manager consolen klistra in denna rad...
+ 
+	Scaffold-DbContext "Server=localhost;Database=Northwind;Trusted_Connection=True;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+	Nu har vi en DbContext till 'Northwind' databasen
 	
+
 
 
 
