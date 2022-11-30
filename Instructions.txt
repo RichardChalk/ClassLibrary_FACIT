@@ -110,10 +110,16 @@ Project 3
 	Välj 'SuperDuperClassLibrary' (titta under Dependencies => Projects nu!)
 
 
-#11 I package manager consolen klistra in denna rad...
+#12 I package manager consolen klistra in denna rad...
  
 	Scaffold-DbContext "Server=localhost;Database=Northwind;Trusted_Connection=True;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 	Nu har vi en DbContext till 'Northwind' databasen
+
+#13 I Main på Project3 skapa en koppling till Northwind Databasen
+	Loopa igenom alla Produkter för att dubbelkolla att det funkade
+
+Får du 77 produkter?
+Dubbelkolla summan med hjälp av din SQL explorer i Visual Studio
 	
 
 
