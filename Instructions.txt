@@ -100,7 +100,13 @@ Project 3
 	Döp den till 'Project3'
 	.NET 6.0
 
+#10 Lägg till alla nödvändiga nuget paket till SOLUTION!
+	I detta exempel kan du installera dessa paket i samtliga projekt!
+	Microsoft.EntityFramworkCore.SqlServer
+	Microsoft.EntityFramworkCore.Tools
 
+
+	
 
 
 

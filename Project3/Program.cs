@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Först ska vi installerar alla Nuget paket som behövs för att kunna
+// koppla upp oss mot en databas...
+
+
