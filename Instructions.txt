@@ -1,0 +1,26 @@
+** **********
+Class Library
+** **********
+
+
+Nedan ser du en lista med Work Items.... (tex. #1 Skapa en Blank Solution)
+Följ alla work items i tur och ordning
+Skapa en ny commit för varje work item (med BRA commit rubrik)
+
+** *******
+Work Items
+** *******
+
+#1 Skapa en 'Blank Solution' med relevant namn i Visual Studio
+
+#2 Synka den nya solution med ditt gitHub konto
+
+#3 Högerklicka på din solution and välj 'Add' => 'New Project'
+	Välj C# 'Class Library'
+	Döp den till 'SuperDuperClassLibrary'
+	.NET 6.0
+
+#4 VS skapade en klass som heter 'Class 1'
+	Döp om den till 'MathServices'
+
+
