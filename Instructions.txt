@@ -122,7 +122,13 @@ Får du 77 produkter?
 Dubbelkolla summan med hjälp av din SQL explorer i Visual Studio
 	
 
+** ****************************************
+Övningar
+** ****************************************
 
+a: Skapa en appsettings.json
+b: Skapa CRUD funktionalitet i Projekt 3
+	(Tips: Börja med en meny som erbjuder möjligheten att CRUD:a antingen Produkterna eller Kategorierna)
 
 
 
