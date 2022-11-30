@@ -23,4 +23,13 @@ Work Items
 #4 VS skapade en klass som heter 'Class 1'
 	Döp om den till 'MathServices'
 
+#5 Skapa fyra metoder som returner resultatet av en matematisk beräkning
+	Addition()
+	Subtraction()
+	Multiplication()
+	Division()
+
+
+
+
 
