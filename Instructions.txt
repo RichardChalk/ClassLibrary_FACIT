@@ -68,6 +68,14 @@ Vi kan högerklicka på 'Project1' och se till att det projektet startas upp fö
 	'Set as startup project'
 
 Testa F5 nu. Success!!!
+
+** ****************************************
+** ****************************************
+
+#8 Upprepa work item #6 & #7.
+	Denna gång ska projektet döpas till 'Project2'
+	Anropa Multiplication() & Division() i detta projekt
+	
 	
 
 	
