@@ -110,10 +110,14 @@ Project 3
 	Välj 'SuperDuperClassLibrary' (titta under Dependencies => Projects nu!)
 
 
-#12 I package manager consolen klistra in denna rad...
+#12 Vi vill lägga till vår DBContext i vår class library. På så sätt finns den endast på ett ställe!
+Vi får dock tillgång till vår DbContext från olika projekt ändå! Great! 
+
+(OBS: Viktigt att man välja class library som default project i din package console!!)
+I package manager consolen klistra in denna rad...
  
 	Scaffold-DbContext "Server=localhost;Database=Northwind;Trusted_Connection=True;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
-	Nu har vi en DbContext till 'Northwind' databasen
+	Nu har vi en DbContext till 'Northwind' databasen från vår class library.
 
 #13 I Main på Project3 skapa en koppling till Northwind Databasen
 	Loopa igenom alla Produkter för att dubbelkolla att det funkade
