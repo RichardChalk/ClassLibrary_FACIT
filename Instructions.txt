@@ -55,6 +55,8 @@ Project 1
 	Låt musen vilar över felet och välv 'Show Potential Fixes'
 	Nu kan du välja 'using 'SuperDuprClassLibrary'
 
+	Anropa Addition & Subtraction() i detta projekt.
+
 	Skriv resultatet till consolen och klicka på F5.
 
 ** ****************************************
