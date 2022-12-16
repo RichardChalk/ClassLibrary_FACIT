@@ -104,8 +104,8 @@ Project 3
 
 #10 Lägg till alla nödvändiga nuget paket till SOLUTION!
 	I detta exempel kan du installera dessa paket i samtliga projekt!
-	Microsoft.EntityFramworkCore.SqlServer
-	Microsoft.EntityFramworkCore.Tools
+	Microsoft.EntityFrameworkCore.SqlServer
+	Microsoft.EntityFrameworkCore.Tools
 
 #11 	I Project3 högerklicka på 'Dependencies'
 	Välj 'Add Project reference'
